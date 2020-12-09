@@ -23,3 +23,21 @@ if (dia=== 0) {
 }else{
     console.log('otro dia de la semana');
 }
+
+dia = 10;
+
+/* otra manera de hacer lo mismo que arriba pero sin 
+usar if o schiw */
+const diasLetras={
+  0:'domingo',
+  1:'lunes',
+  2:'martes',
+  3:'miercoles',
+  4:'jueves',
+  5:'viernes',
+  6:'sabado',
+  
+}
+
+
+console.log(diasLetras[dia]|| 'dia no definido');
